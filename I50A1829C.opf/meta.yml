@@ -1,165 +1,328 @@
 id: I50A1829C
+legacy_id: P005481
+ocr_import_info:
+  bdrc_scan_id: W10736
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-24T22:28:22'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-24T22:32:55+00:00'
-last_modified: '2022-06-08T03:23:42.055458+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-08-30T12:28:13.362769+00:00'
+last_modified: 2022-08-30 20:48:21.606664
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W10736
-  title: གསུང་འབུམ། པདྨ་དཀར་པོ
-  author: ''
+  id: http://purl.bdrc.io/resource/W10736
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    37B9:
-      image_group_id: I1240
-      title: ''
-      total_pages: 758
-      order: 1
-      base_file: 37B9.txt
-    204C:
-      image_group_id: I1241
-      title: ''
-      total_pages: 626
-      order: 2
-      base_file: 204C.txt
-    BC7C:
-      image_group_id: I1242
-      title: ''
-      total_pages: 606
-      order: 3
-      base_file: BC7C.txt
-    44AC:
-      image_group_id: I1243
-      title: ''
-      total_pages: 504
-      order: 4
-      base_file: 44AC.txt
-    A55A:
-      image_group_id: I1244
-      title: ''
-      total_pages: 656
-      order: 5
-      base_file: A55A.txt
-    DF86:
-      image_group_id: I1245
-      title: ''
-      total_pages: 634
-      order: 6
-      base_file: DF86.txt
-    0A55:
-      image_group_id: I1246
-      title: ''
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW10736
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: གསུང་འབུམ། པདྨ་དཀར་པོ།
+  author: འབྲུག་ཆེན ༠༤་པདྨ་དཀར་པོ།
+statistics:
+  ocr_word_mean_confidence_index: 0.6758282683017574
+  ocr_word_median_confidence_index: 0.7699999809265137
+quality: null
+bases:
+  I1246:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1246
       total_pages: 488
-      order: 7
-      base_file: 0A55.txt
-    F86E:
-      image_group_id: I1247
-      title: ''
-      total_pages: 702
-      order: 8
-      base_file: F86E.txt
-    8A9B:
-      image_group_id: I1248
-      title: ''
-      total_pages: 552
-      order: 9
-      base_file: 8A9B.txt
-    1EDD:
-      image_group_id: I1249
-      title: ''
-      total_pages: 614
-      order: 10
-      base_file: 1EDD.txt
-    DD9E:
-      image_group_id: I1250
-      title: ''
-      total_pages: 648
-      order: 11
-      base_file: DD9E.txt
-    6A90:
-      image_group_id: I1251
-      title: ''
-      total_pages: 604
-      order: 12
-      base_file: 6A90.txt
-    7E7E:
-      image_group_id: I1252
-      title: ''
-      total_pages: 656
-      order: 13
-      base_file: 7E7E.txt
-    '6709':
-      image_group_id: I1253
-      title: ''
-      total_pages: 610
-      order: 14
-      base_file: 6709.txt
-    DE4E:
-      image_group_id: I1254
-      title: ''
-      total_pages: 654
-      order: 15
-      base_file: DE4E.txt
-    7BD6:
-      image_group_id: I1255
-      title: ''
+      volume_number: 7
+      volume_pages_bdrc_intro: 2
+    order: 7
+    base_file: I1246.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6600000262260437
+      ocr_word_mean_confidence_index: 0.6141638962878477
+    legacy_id: v007
+  I1255:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1255
       total_pages: 646
-      order: 16
-      base_file: 7BD6.txt
-    39CB:
-      image_group_id: I1256
-      title: ''
+      volume_number: 16
+      volume_pages_bdrc_intro: 2
+    order: 16
+    base_file: I1255.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.6994848853760819
+    legacy_id: v016
+  I1249:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1249
+      total_pages: 614
+      volume_number: 10
+      volume_pages_bdrc_intro: 2
+    order: 10
+    base_file: I1249.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8399999737739563
+      ocr_word_mean_confidence_index: 0.7079529842522968
+    legacy_id: v010
+  I1242:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1242
+      total_pages: 606
+      volume_number: 3
+      volume_pages_bdrc_intro: 2
+    order: 3
+    base_file: I1242.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8399999737739563
+      ocr_word_mean_confidence_index: 0.7283551566287905
+    legacy_id: v003
+  I1254:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1254
+      total_pages: 654
+      volume_number: 15
+      volume_pages_bdrc_intro: 2
+    order: 15
+    base_file: I1254.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7099999785423279
+      ocr_word_mean_confidence_index: 0.6416236768072074
+    legacy_id: v015
+  I1252:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1252
+      total_pages: 656
+      volume_number: 13
+      volume_pages_bdrc_intro: 2
+    order: 13
+    base_file: I1252.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.75
+      ocr_word_mean_confidence_index: 0.6535129324877321
+    legacy_id: v013
+  I1257:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1257
       total_pages: 680
-      order: 17
-      base_file: 39CB.txt
-    '7064':
-      image_group_id: I1257
-      title: ''
-      total_pages: 680
-      order: 18
-      base_file: 7064.txt
-    339D:
-      image_group_id: I1258
-      title: ''
-      total_pages: 610
-      order: 19
-      base_file: 339D.txt
-    C824:
-      image_group_id: I1259
-      title: ''
-      total_pages: 578
-      order: 20
-      base_file: C824.txt
-    18E2:
-      image_group_id: I1260
-      title: ''
-      total_pages: 612
-      order: 21
-      base_file: 18E2.txt
-    E1C2:
-      image_group_id: I1261
-      title: ''
-      total_pages: 640
-      order: 22
-      base_file: E1C2.txt
-    '6448':
-      image_group_id: I1262
-      title: ''
+      volume_number: 18
+      volume_pages_bdrc_intro: 2
+    order: 18
+    base_file: I1257.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7200000286102295
+      ocr_word_mean_confidence_index: 0.6450155942379378
+    legacy_id: v018
+  I1245:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1245
+      total_pages: 634
+      volume_number: 6
+      volume_pages_bdrc_intro: 2
+    order: 6
+    base_file: I1245.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6899999976158142
+      ocr_word_mean_confidence_index: 0.6289288504272187
+    legacy_id: v006
+  I1262:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1262
       total_pages: 652
-      order: 23
-      base_file: 6448.txt
-    '8788':
-      image_group_id: I1263
-      title: ''
+      volume_number: 23
+      volume_pages_bdrc_intro: 2
+    order: 23
+    base_file: I1262.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7280218283670681
+    legacy_id: v023
+  I1250:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1250
+      total_pages: 648
+      volume_number: 11
+      volume_pages_bdrc_intro: 2
+    order: 11
+    base_file: I1250.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7099999785423279
+      ocr_word_mean_confidence_index: 0.6352225609759827
+    legacy_id: v011
+  I1256:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1256
+      total_pages: 680
+      volume_number: 17
+      volume_pages_bdrc_intro: 2
+    order: 17
+    base_file: I1256.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6600000262260437
+      ocr_word_mean_confidence_index: 0.6185733360319153
+    legacy_id: v017
+  I1240:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1240
+      total_pages: 758
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I1240.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8500000238418579
+      ocr_word_mean_confidence_index: 0.7496602708363918
+    legacy_id: v001
+  I1260:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1260
       total_pages: 612
-      order: 24
-      base_file: 8788.txt
-statistics: {}
-quality: {}
+      volume_number: 21
+      volume_pages_bdrc_intro: 2
+    order: 21
+    base_file: I1260.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7799999713897705
+      ocr_word_mean_confidence_index: 0.6700103563268057
+    legacy_id: v021
+  I1247:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1247
+      total_pages: 702
+      volume_number: 8
+      volume_pages_bdrc_intro: 2
+    order: 8
+    base_file: I1247.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.75
+      ocr_word_mean_confidence_index: 0.6622280892485627
+    legacy_id: v008
+  I1248:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1248
+      total_pages: 552
+      volume_number: 9
+      volume_pages_bdrc_intro: 2
+    order: 9
+    base_file: I1248.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.75
+      ocr_word_mean_confidence_index: 0.659307258563431
+    legacy_id: v009
+  I1244:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1244
+      total_pages: 656
+      volume_number: 5
+      volume_pages_bdrc_intro: 2
+    order: 5
+    base_file: I1244.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6899999976158142
+      ocr_word_mean_confidence_index: 0.6304991324742661
+    legacy_id: v005
+  I1253:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1253
+      total_pages: 610
+      volume_number: 14
+      volume_pages_bdrc_intro: 2
+    order: 14
+    base_file: I1253.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6899999976158142
+      ocr_word_mean_confidence_index: 0.6396997390865122
+    legacy_id: v014
+  I1251:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1251
+      total_pages: 604
+      volume_number: 12
+      volume_pages_bdrc_intro: 2
+    order: 12
+    base_file: I1251.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7200000286102295
+      ocr_word_mean_confidence_index: 0.6464428453781942
+    legacy_id: v012
+  I1241:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1241
+      total_pages: 626
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I1241.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8600000143051147
+      ocr_word_mean_confidence_index: 0.7395606496132211
+    legacy_id: v002
+  I1259:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1259
+      total_pages: 578
+      volume_number: 20
+      volume_pages_bdrc_intro: 2
+    order: 20
+    base_file: I1259.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.75
+      ocr_word_mean_confidence_index: 0.6651494488401839
+    legacy_id: v020
+  I1243:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1243
+      total_pages: 504
+      volume_number: 4
+      volume_pages_bdrc_intro: 2
+    order: 4
+    base_file: I1243.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7148359866978495
+    legacy_id: v004
+  I1261:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1261
+      total_pages: 640
+      volume_number: 22
+      volume_pages_bdrc_intro: 2
+    order: 22
+    base_file: I1261.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8299999833106995
+      ocr_word_mean_confidence_index: 0.7228780683166129
+    legacy_id: v022
+  I1258:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1258
+      total_pages: 610
+      volume_number: 19
+      volume_pages_bdrc_intro: 2
+    order: 19
+    base_file: I1258.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7799999713897705
+      ocr_word_mean_confidence_index: 0.682918043377629
+    legacy_id: v019
+  I1263:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1263
+      total_pages: 612
+      volume_number: 24
+      volume_pages_bdrc_intro: 2
+    order: 24
+    base_file: I1263.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8299999833106995
+      ocr_word_mean_confidence_index: 0.7175539595807735
+    legacy_id: v024
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
